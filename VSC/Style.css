@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #150a63;
+    background-image: url(GALERIA/FOTOS/HERRAMIENTAS\ CCC.jpg);
+    background-size: 1250px 800px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,10 +11,10 @@ body {
 }
 
 .login-container {
-    background-color: #ffffff41;
-    border-radius: 15px;
+    background-color: #ffffff26;
+    border-radius: 60px;
     box-shadow: 10PX 10PX 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     width: 300px;
 }

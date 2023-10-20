@@ -11,13 +11,22 @@ body {
 
 }
 
-.logo {
-    /* Estilos para el logo */
+.logo img {
+    
+    width: 260px;
+    height: 262px;
+    margin: 40px;
+    padding: auto;
+    
 }
+
 
 nav ul {
     list-style: none;
-  
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #F74343; /*borde de los botones*/
+    border-radius: 5px;
 }
 
 nav ul li a {

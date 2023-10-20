@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #AEAFAA;
+}
+/* Estilos de la barra lateral */
+.sidebar {
+    width: 348px;
+    height: 900px;
+    background-color: #2A292E; /* Color de fondo de la barra lateral */
+    float: left;
+
+}
+
+.logo {
+    /* Estilos para el logo */
+}
+
+nav ul {
+    list-style: none;
+  
+}
+
+nav ul li a {
+    display: block;
+    color: #ffffff; /* Color de texto para los botones */
+    text-decoration: none;
+    padding: 20px;
+}
+
+/* Estilos de la sección de contenido */
+.content {
+    margin-left: 348px; /* Ancho de la barra lateral */
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #eee; /* Color de fondo del encabezado */
+}
+
+.notification-icon {
+    /* Estilos para el icono de notificaciones */
+}
+
+.user-options a {
+    margin-right: 10px;
+    /* Estilos para los enlaces de usuario */
+}
+
+.reservation-form {
+    width: 100%;
+    /* Estilos para el formulario de reservas */
+}

@@ -1,3 +1,9 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-image: url(GALERIA/FOTOS/HERRAMIENTAS\ CCC.jpg);
@@ -8,15 +14,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 700PX;
+
 }
 
 .login-container {
     background-color: #ffffff26;
     border-radius: 60px;
-    box-shadow: 10PX 10PX 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
     padding: 30px;
     text-align: center;
-    width: 300px;
+    width: 250px;
 }
 
 .form-group {
@@ -24,19 +31,19 @@ body {
     text-align: left;
 }
 
-label {
+label{
     display: block;
     font-weight: bold;
 }
 
-input {
+input{
     width: 90%;
     padding: 10px;
-    border: 1px solid #F74343; /*borde de los botones*/
+    border: 1px solid #F74343;
     border-radius: 5px;
 }
 
-button {
+button{
     background-color: #F74343;
     color: #000000;
     padding: 10px 20px;
@@ -44,4 +51,33 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-icon {
+    margin-right: 1px;
+    background-color: #F74343; 
+    padding: 1px; 
+    border-radius: 10%; 
+}
+
+.btn-login {
+    background-color: #F74343;
+    color: #000000;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+
+
+.btn-login:hover {
+    transform: scale(1.1);
+    background-color: #E8EC1A ; 
+    border:#000000
 }

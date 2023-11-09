@@ -5,24 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="GALERIA/FOTOS/LOGO CCC.png">
     <title>| INICIAR SESIÓN |</title>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="login-container">
         <div class="logo"> 
-            <img src="GALERIA/FOTOS/LOGO CCC.png" lt="calzado calidad">
+            <img src="GALERIA/FOTOS/LOGO CCC.png" alt="calzado calidad">
         </div>
        
         <form action="procesar_login.php" method="POST">
             <div class="form-group">
-                <label for="username">Usuario:</label>
-                <input type="text" id="username" name="username" required>
+                <div class="input-icon">
+                    <img src="GALERIA/ICONOS/user-detail-solid-24.png" alt="Icono de Usuario">
+                </div>
+                <input type="text" id="username" name="username" placeholder="Ingrese su usuario" required>
             </div>
             <div class="form-group">
-                <label for="password">Contraseña:</label>
-                <input type="password" id="password" name="password" required>
+                <div class="input-icon">
+                    <img src="GALERIA/ICONOS/lock-alt-solid-24.png" alt="Icono de Contraseña">
+                </div>
+                <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" required>
             </div>
-            <button type="submit">INICIAR</button>
+            <button type="submit" class="btn-login">INICIAR</button>
         </form>
     </div>
 </body>

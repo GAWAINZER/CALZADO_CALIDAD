@@ -17,24 +17,94 @@ body {
     background-color: #2A292E; /* Color de fondo de la barra lateral */
     float: left;
 }
+nav ul a{
+    color: #ffffff;
+    
+}
+.panel{
+    float: left; 
+    margin: 0;
+    padding: 0;
+}
 .reservas{
+    
     background-color: #2c688182;
-    color: #000000;
-    border-radius: 5px;
     cursor: pointer;
-    background-color: #1483c8;
-    color: #000000;
-    padding: 10px 130px;
+    padding: 10px 100px;
     border: none;
-    cursor: pointer;
-
+   
+    
 }
 .clientes{
     background-color: #2c688182;
     color: #000000;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #1483c8;
+    color: #000000;
+    padding: 10px 130px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.pedidos{
+    background-color: #2c688182;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000000;
+    padding: 10px 130px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.servicios{
+    background-color: #2c688182;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000000;
+    padding: 10px 130px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.pagos{
+    background-color: #2c688182;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000000;
+    padding: 10px 130px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.personal{
+    background-color: #2c688182;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000000;
+    padding: 10px 130px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.opciones{
+    background-color: #2c688182;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
     color: #000000;
     padding: 10px 130px;
     margin: 10px;

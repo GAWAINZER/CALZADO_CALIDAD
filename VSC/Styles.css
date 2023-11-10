@@ -3,7 +3,13 @@
     padding: 0%;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;   
 }
-
+body {
+    font-family: Arial, sans-serif;
+    background-color: #AEAFAA;
+    margin: 0;
+    padding: 0;
+   
+}
 /* -------------------- barra lateral---------------------- */
 body .sidebar {
     width: 280px;
@@ -36,7 +42,7 @@ nav ul li a {
     padding: 15px;
     margin: 20px;
 }
-nav ul button{
+.panel nav ul button{
   
     
         background-color: #2c688182;
@@ -49,54 +55,45 @@ nav ul button{
    
     
 }
-.reservas{
-    
-    background-color: #2c688182;
-    cursor: pointer;
-    padding: 0px 0px 0px 0px ;
-    margin: 0px 0px 4px 0px;
-    border: none;
-    width: 280px;
+/* -------------------- header ---------------------- */
+.header{
+    width: 880px;
     height: 50px;
-}
-.clientes{
-    
-    background-color: #2c688182;
-    cursor: pointer;
-    padding: 0px 0px 0px 0px ;
-    margin: 0px 0px 4px 0px;
-    border: none;
-    width: 280px;
-    height: 50px;
-}
-.pedidos{
-    
-    background-color: #2c688182;
-    cursor: pointer;
-    padding: 0px 0px 0px 0px ;
-    margin: 0px 0px 4px 0px;
-    border: none;
-    width: 280px;
-    height: 50px;
-}
-.servicios{
-    
-    background-color: #2c688182;
-    cursor: pointer;
-    padding: 0px 0px 0px 0px ;
-    margin: 0px 0px 4px 0px;
-    border: none;
-    width: 280px;
-    height: 50px;
-}
-.clientes{
-    
-    background-color: #2c688182;
-    cursor: pointer;
-    padding: 0px 0px 0px 0px ;
-    margin: 0px 0px 4px 0px;
-    border: none;
-    width: 280px;
-    height: 50px;
-}
+    float: right;
+    margin: 0px 0px 0px 0px;/*(margen externo) arriba-der-abajo-izq */
+    padding: 10px 0px 20px 60px;/*(margen interno) arriba-der-abajo-izq */
 
+}
+.header .inicio{
+    background-color: #F3F2F2;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px; 
+    margin: 10px 0px 0px -20px;/*(margen externo) arriba-der-abajo-izq */
+    padding: 5px 5px 0px 10px;/*(margen interno) arriba-der-abajo-izq */
+
+}
+.header .user-opcion{
+    list-style: none;
+    float: right;
+    margin: -50px 0px 0px 0px;/*(margen externo) arriba-der-abajo-izq */
+    padding: 0px 5px 0px 10px;/*(margen interno) arriba-der-abajo-izq */
+    justify-content: center;
+    display: flex
+}
+.cerrar{
+    margin: 17px 10px 0px 10px;/*(margen externo) arriba-der-abajo-izq */
+    padding: 0px 0px 0px 0px;/*(margen interno) arriba-der-abajo-izq */
+    background-color: #2A292E;
+    width: 80px;
+    height: 30px;
+   
+
+}
+.header .user-opcion img{
+    margin: 0px 0px 0px 0px;/*(margen externo) arriba-der-abajo-izq */
+    padding: 10px 0px 20px 10px;/*(margen interno) arriba-der-abajo-izq */
+    width: auto;/*ancho*/
+    height: 40px;/*alto*/
+    
+}

@@ -120,8 +120,62 @@ nav ul li a {
 
 }
 /* -------------------- estructura clientes---------------------- */
+.header .ini-clientes{
+    background-color: #F3F2F2;
+    width: 330px;
+    height: 35px;
+    border-radius: 10px; 
+    margin: 10px 0px 0px -20px;/*(margen externo) arriba-der-abajo-izq */
+    padding: 5px 5px 0px 10px;/*(margen interno) arriba-der-abajo-izq */
+
+}
 /* -------------------- estructura pedidos---------------------- */
+.header .ini-pedidos{
+    background-color: #F3F2F2;
+    width: 330px;
+    height: 35px;
+    border-radius: 10px; 
+    margin: 10px 0px 0px -20px;/*(margen externo) arriba-der-abajo-izq */
+    padding: 5px 5px 0px 10px;/*(margen interno) arriba-der-abajo-izq */
+
+}
 /* -------------------- estructura servicios---------------------- */
+.header .ini-servicios{
+    background-color: #F3F2F2;
+    width: 330px;
+    height: 35px;
+    border-radius: 10px; 
+    margin: 10px 0px 0px -20px;/*(margen externo) arriba-der-abajo-izq */
+    padding: 5px 5px 0px 10px;/*(margen interno) arriba-der-abajo-izq */
+
+}
 /* -------------------- estructura pagos---------------------- */
+.header .ini-pagos{
+    background-color: #F3F2F2;
+    width: 330px;
+    height: 35px;
+    border-radius: 10px; 
+    margin: 10px 0px 0px -20px;/*(margen externo) arriba-der-abajo-izq */
+    padding: 5px 5px 0px 10px;/*(margen interno) arriba-der-abajo-izq */
+
+}
 /* -------------------- estructura personal---------------------- */
+.header .ini-personal{
+    background-color: #F3F2F2;
+    width: 330px;
+    height: 35px;
+    border-radius: 10px; 
+    margin: 10px 0px 0px -20px;/*(margen externo) arriba-der-abajo-izq */
+    padding: 5px 5px 0px 10px;/*(margen interno) arriba-der-abajo-izq */
+
+}
 /* -------------------- estructura opciones---------------------- */
+.header .ini-opciones{
+    background-color: #F3F2F2;
+    width: 330px;
+    height: 35px;
+    border-radius: 10px; 
+    margin: 10px 0px 0px -20px;/*(margen externo) arriba-der-abajo-izq */
+    padding: 5px 5px 0px 10px;/*(margen interno) arriba-der-abajo-izq */
+
+}

@@ -13,7 +13,7 @@ body {
 /* -------------------- barra lateral---------------------- */
 body .sidebar {
     width: 280px;
-    height: 900px;
+    height: 590px;
     background-color: #2A292E; 
     float: left;
     margin: 0px 0px;/*(margen externo) arriba-der-abajo-izq */
@@ -52,8 +52,12 @@ nav ul li a {
         border: none;
         width: 280px;
         height: 50px;
-   
+        transition: all 0.5s ease 0s;
+}
+.panel nav ul button:hover{
     
+    background: #2C6781;
+    transform: scale(0.9);
 }
 /* -------------------- header ---------------------- */
 .header{
@@ -80,6 +84,7 @@ nav ul li a {
     padding: 0px 5px 0px 10px;/*(margen interno) arriba-der-abajo-izq */
     justify-content: center;
     display: flex
+    
 }
 .cerrar{
     margin: 17px 10px 0px 10px;/*(margen externo) arriba-der-abajo-izq */
@@ -87,9 +92,14 @@ nav ul li a {
     background-color: #2A292E;
     width: 80px;
     height: 30px;
-   
+    transition: background-color 0.3s ease;
 
 }
+.cerrar:hover {
+    background-color: #F74343; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+}
+
+
 .header .user-opcion img{
     margin: 0px 0px 0px 0px;/*(margen externo) arriba-der-abajo-izq */
     padding: 10px 0px 20px 10px;/*(margen interno) arriba-der-abajo-izq */
@@ -97,3 +107,21 @@ nav ul li a {
     height: 40px;/*alto*/
     
 }
+/* -------------------- estructura inicio---------------------- */
+
+/* -------------------- estructura reservar---------------------- */
+.header .ini-reservar{
+    background-color: #F3F2F2;
+    width: 230px;
+    height: 35px;
+    border-radius: 10px; 
+    margin: 10px 0px 0px -20px;/*(margen externo) arriba-der-abajo-izq */
+    padding: 5px 5px 0px 10px;/*(margen interno) arriba-der-abajo-izq */
+
+}
+/* -------------------- estructura clientes---------------------- */
+/* -------------------- estructura pedidos---------------------- */
+/* -------------------- estructura servicios---------------------- */
+/* -------------------- estructura pagos---------------------- */
+/* -------------------- estructura personal---------------------- */
+/* -------------------- estructura opciones---------------------- */

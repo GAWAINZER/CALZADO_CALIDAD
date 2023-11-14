@@ -151,7 +151,8 @@ nav ul li a {
 
 .div-2 {
     background-color: #D9D9D9;
-   
+    height: 50px;
+    width: 880px;
     margin: 5px 9px 0px 320px;/*(margen externo) arriba-der-abajo-izq */
     padding: 5px 0px 5px 9px;/*(margen interno) arriba-der-abajo-izq */
    

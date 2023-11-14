@@ -129,6 +129,67 @@ nav ul li a {
     padding: 5px 5px 0px 10px;/*(margen interno) arriba-der-abajo-izq */
 
 }
+.estructura-2 {
+    background-color: #AEAFAA;
+}
+.div-1 {
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    margin: 5px 9px 0px 320px;/*(margen externo) arriba-der-abajo-izq */
+    padding: 5px 0px 5px 9px;/*(margen interno) arriba-der-abajo-izq */
+    display: flex;
+    align-items: center;
+}
+.buscar-n{
+    justify-content: space-between;
+    border-radius: 15px;
+    height: 25px;
+    width: 400px;
+    margin: 0px 0px 0px 10px;/*(margen externo) arriba-der-abajo-izq */
+    border: none;
+}
+
+.div-2 {
+    background-color: #D9D9D9;
+   
+    margin: 5px 9px 0px 320px;/*(margen externo) arriba-der-abajo-izq */
+    padding: 5px 0px 5px 9px;/*(margen interno) arriba-der-abajo-izq */
+   
+}
+
+.div-3 {
+    background-color: #D9D9D9;
+   
+    margin: 5px 9px 0px 320px;/*(margen externo) arriba-der-abajo-izq */
+    padding: 5px 0px 5px 9px;/*(margen interno) arriba-der-abajo-izq */
+}
+.div-4 {
+    background-color: #D9D9D9;
+   
+    margin: 5px 9px 0px 320px;/*(margen externo) arriba-der-abajo-izq */
+    padding: 5px 0px 5px 9px;/*(margen interno) arriba-der-abajo-izq */
+   
+}
+.div-5 {
+    background-color: #D9D9D9;
+   
+    margin: 5px 9px 0px 320px;/*(margen externo) arriba-der-abajo-izq */
+    padding: 5px 0px 5px 9px;/*(margen interno) arriba-der-abajo-izq */
+   
+}
+.div-6 {
+    background-color: #D9D9D9;
+   
+    margin: 5px 9px 0px 320px;/*(margen externo) arriba-der-abajo-izq */
+    padding: 5px 0px 5px 9px;/*(margen interno) arriba-der-abajo-izq */
+   
+}.div-7 {
+    background-color: #D9D9D9;
+   
+    margin: 5px 9px 0px 320px;/*(margen externo) arriba-der-abajo-izq */
+    padding: 5px 0px 5px 9px;/*(margen interno) arriba-der-abajo-izq */
+   
+}
 /* -------------------- estructura pedidos---------------------- */
 .header .ini-pedidos{
     background-color: #F3F2F2;
